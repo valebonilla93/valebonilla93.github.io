@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Valeria Bonilla</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <img src="imagen.jpg">
+    <h1 class="titulo">Valeria Bonilla</h1>
+    <h2 class="presentacion">PRESENTACIÓN</h2>
+    
+    <p>Considero que tengo buenas aptitudes para transmitir conocimientos, facilidad frente a los vínculos humanos en general y buena predisposición para aprender y adaptarme a nuevos espacios.</p>
+
+    <ul>
+        <li><a href="#Experiencia">Experiencia profesional</a></li>
+        <li><a href="#Educacion">Educación</a></li>
+        <li><a href="#Perfiles">Perfil social</a></li>
+        <li><a href="#Contactar">Contactar</a></li>
+    </ul>
+    
+    <h2 id="Experiencia" class="subtitulos">EXPERIENCIA PROFESIONAL</h2>
+    <table>
+        <tr>
+            <th>Empresa</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde-hasta</th>
+        </tr>
+        <tr>
+            <td>Foto Taki</td>
+            <td>Vendedora, cajera y capacitación del nuevo personal</td>
+            <td>Punta del este (Uruguay)</td>
+            <td>Noviembre 2013 - Marzo 2018</td>
+        </tr>
+        <tr>
+            <td>Instituto Uruguayo Argentino</td>
+            <td>Docente de literatura en bachillerato</td>
+            <td>Punta del este (Uruguay)</td>
+            <td>Mayo 2017 - Actualidad</td>
+        </tr>
+        <tr>
+            <td>Insituto Uruguayo Argentino</td>
+            <td>Auxiliar administrativo</td>
+            <td>Punta del este (Uruguay)</td>
+            <td>Junio 2023 - Actualidad</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 id="Educacion" class="subtitulos">EDUCACIÓN</h2>
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Entidad</th>
+            <th>Promoción</th>
+        </tr>
+        <tr>
+            <td>Profesorado de literatura</td>
+            <td>CeRP del Este</td>
+            <td>2018</td>
+        </tr>
+        <tr id="curso">
+            <td>Curso: Desarrollo web</td>
+            <td>Plan Ceibal (Jóvenes a programar)</td>
+            <td>En curso</td>
+        </tr>
+    </table>
+    
+    <h2 id="Perfiles" class="subtitulos">PERFIL SOCIAL.</h2>
+    <p>También puedes encontrarme en: </p>
+    <ul>
+        <li><a href="https://github.com/ValeBo46" target="_blank">Github</a></li>
+    </ul>
+    
+    <form method="post">
+        <h2 id="Contactar">CONTACTAR</h2>
+        <fieldset>
+        
+        <label> Para: <input type="text" name="para"></label><br>
+        <label>Temática: <select name="Tematica" id="tematica"></label><br>
+            <option value="">--Elige Un tema---</option>
+             <option value="">Consulta</option>
+              <option value="">Propuesta</option>
+              <option value="">Reporte</option>
+              <option value="">Otro</option>
+               </select></p>
+        <label>Asunto: <input type="text" name="asunto"></label><br>
+        <label>Cuerpo: <textarea name="cuerpo" id="cuerpo" cols="20" rows="2"></textarea> <input type="submit" value="Enviar" /></label>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
